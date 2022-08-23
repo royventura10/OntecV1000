@@ -1,8 +1,18 @@
 package net.ontec.ontecv1.entity;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 
 @Entity(name = "Usuario")
 @Table(name = "TBL_USUARIO")
